@@ -1,0 +1,60 @@
+# =========================
+# Web API
+# =========================
+fastapi[standard]
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-dotenv
+orjson
+
+# =========================
+# LangGraph / LangChain
+# =========================
+langgraph
+langchain
+langchain-core
+langchain-text-splitters
+langchain-google-genai
+langchain-chroma
+
+# =========================
+# HTTP / Async
+# =========================
+httpx
+tenacity
+
+# =========================
+# PostgreSQL
+# =========================
+asyncpg
+
+# =========================
+# Redis
+# =========================
+redis
+
+# =========================
+# RAG / Documents
+# =========================
+chromadb
+pypdf
+beautifulsoup4
+
+# =========================
+# Authentication / Security
+# =========================
+PyJWT
+pwdlib[argon2]
+
+# =========================
+# Utilities
+# =========================
+python-dateutil
+rapidfuzz
+
+# =========================
+# Testing
+# =========================
+pytest
+pytest-asyncio
