@@ -24,7 +24,7 @@ dist/
 .env
 .env.*
 !.env.example
-*env*
+agent_env/*
 
 # API keys / credentials
 *.pem
@@ -101,3 +101,4 @@ data/processed/
 # =========================
 Thumbs.db
 desktop.ini
+*.jpg
